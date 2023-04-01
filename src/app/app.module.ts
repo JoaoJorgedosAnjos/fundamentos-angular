@@ -15,6 +15,8 @@ import { ComponentePaiComponent } from './componente-pai/componente-pai.componen
 import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
 import { ExServicos1Component } from './ex-servicos1/ex-servicos1.component';
 import { ExServicos2Component } from './ex-servicos2/ex-servicos2.component';
+import { CicloDeVidaComponent } from './ciclo-de-vida/ciclo-de-vida.component';
+import { CicloDeVidaPaiComponent } from './ciclo-de-vida-pai/ciclo-de-vida-pai.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { ExServicos2Component } from './ex-servicos2/ex-servicos2.component';
     ComponentePaiComponent,
     ComponenteFilhoComponent,
     ExServicos1Component,
-    ExServicos2Component
+    ExServicos2Component,
+    CicloDeVidaComponent,
+    CicloDeVidaPaiComponent
   ],
   imports: [
     BrowserModule,
